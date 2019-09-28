@@ -46,3 +46,4 @@
 
 ![kartinka](https://github.com/Alesha0808/Singleton-1/blob/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA7.JPG?raw=true)
 
+ ## Кажется, у нас проблемы...
