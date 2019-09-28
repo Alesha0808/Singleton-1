@@ -51,5 +51,14 @@
 
 ![kartinka](https://github.com/Alesha0808/Singleton-1/blob/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA8.JPG?raw=true)
 
-Могло ли введение программных потоков привести к катастрофе? Ведь после того, как переменной uniqueInstance будет присвоен единственный экземпляр ChocolateBoiler, все вызовы getInstance() должны возвращать один и тот же экземпляр? Разве нет?
+**Могло ли введение программных потоков привести к катастрофе? Ведь после того, как переменной uniqueInstance будет присвоен единственный экземпляр ChocolateBoiler, все вызовы getInstance() должны возвращать один и тот же экземпляр? Разве нет?**
+
+![kartinka](https://github.com/Alesha0808/Singleton-1/blob/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA9.JPG?raw=true)
+
+## Решение проблемы многопоточного доступа
+
+**Наши многопоточные проблемы решаются почти тривиально: метод getInstance()
+объявляется синхронизированным:**
+
+![kartinka](https://github.com/Alesha0808/Singleton-1/blob/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA10.JPG?raw=true)
 
